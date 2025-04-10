@@ -1,17 +1,20 @@
 .auth-form-container {
-  max-width: 450px;
-  margin: 50px auto;
-  padding: 30px;
+  width: 400px;
+  min-height: 600px; /* Fixed minimum height for both forms */
+  padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   background-color: #fff;
+  display: flex;
+  flex-direction: column;
 }
 
 .auth-form-container h2 {
-  margin-bottom: 24px;
+  margin-bottom: 28px;
   text-align: center;
   color: #333;
   font-weight: 600;
+  font-size: 25px;
 }
 
 .auth-form {
@@ -27,16 +30,17 @@
 }
 
 .form-group label {
-  margin-bottom: 6px;
+  margin-bottom: 8px;
   font-weight: 500;
   color: #333;
+  font-size: 15px;
 }
 
 .form-control {
-  padding: 12px;
+  padding: 14px;
   border-radius: 6px;
   border: 1px solid #ccc;
-  font-size: 16px;
+  font-size: 15px;
   transition: border-color 0.3s;
 }
 
@@ -48,7 +52,7 @@
 
 .error-message {
   color: #e53935;
-  font-size: 14px;
+  font-size: 13px;
   margin-top: 4px;
 }
 
@@ -59,7 +63,7 @@
   color: white;
   border: none;
   border-radius: 6px;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
   cursor: pointer;
   transition: background-color 0.3s;
@@ -75,14 +79,14 @@
   padding: 12px;
   border-radius: 6px;
   margin-bottom: 16px;
-  font-size: 14px;
+  font-size: 13px;
   text-align: center;
 }
 
 .auth-link {
   margin-top: 16px;
   text-align: center;
-  font-size: 14px;
+  font-size: 13px;
   color: #666;
 }
 

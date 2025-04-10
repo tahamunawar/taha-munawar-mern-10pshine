@@ -6,5 +6,5 @@ To test functionality:
 
 1) Clone the repo
 2) Run "npm install" in both frontend and backend folders
-3) Run "node mockDB.js" in the backend folder to get mock database running
+3) Run "npm run dev" in the backend folder to get mongoDB database running
 4) Run "npm start" in frontend folder to launch the application

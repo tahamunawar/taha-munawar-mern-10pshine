@@ -5,6 +5,7 @@ const pinoHttp = require('pino-http');
 const logger = require('./utils/logger');
 const errorHandler = require('./middlewares/errorHandler');
 const authRoutes = require('./routes/authRoutes');
+const noteRoutes = require('./routes/noteRoutes');
 const config = require('./config/config');
 
 // Initialize express app
@@ -23,6 +24,7 @@ app.use(express.json());
 
 // Routes
 app.use('/api/auth', authRoutes);
+app.use('/api/notes', noteRoutes);
 
 // Test route
 app.get('/', (req, res) => {
